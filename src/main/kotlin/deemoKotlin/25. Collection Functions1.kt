@@ -24,7 +24,7 @@ fun main() {
     })
 
     // 5. all: 모든 요소가 조건을 만족하는지 Boolean 반환
-    println( nameList.any{
+    println( nameList.all{
         it.length == 3
     })
 

@@ -60,6 +60,7 @@ fun main(){
 }
 
 // 1. apply: 인스턴스를 생성하고 변수에 담기 전에, "초기화 과정"을 수행할 때 많이 쓰임
+// 객체를 사용하기 전에, 생성자 인자만으로는 할 수 없는 초기화 작업이 필요할 때
 // apply는 main 함수와 별도의 scope에서 인스턴스의 변수와 함수를 조작함 -> 코드가 깔끔해짐
 class Book(var name: String, var price: Int){
     fun discount(){

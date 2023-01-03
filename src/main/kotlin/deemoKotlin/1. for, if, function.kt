@@ -7,8 +7,7 @@ fun main(){
 }
 
 fun add(a: Int, b: Int, c: Int): Int {
-    val result = a+b+c
-    return result
+    return a + b + c
 }
 
 

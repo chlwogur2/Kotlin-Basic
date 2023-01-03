@@ -1,5 +1,5 @@
 package deemoKotlin
-import kotlinx.coroutines.*
+
 /**
  * "비동기"로 여러 개의 루틴을 "동시"에 실행하는 코루틴
  * 코루틴은 main 이 되는 루틴과 별도로 진행이 가능하다
